@@ -1,13 +1,12 @@
 <template>
-    <div id="nav">
-        <router-link to="/">Home</router-link>
-        <router-link to="/request">About</router-link>
-    </div>
+    <nav>
+        <router-link to="/">Home</router-link> |
+        <router-link to="/request">Request</router-link>
+      </nav>
+      <router-view/>
 </template>
 <script>
-export default {
+export default{
     name:'NavBar'
 }
 </script>
-<style scoped>
-</style>

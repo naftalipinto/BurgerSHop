@@ -2,9 +2,7 @@
     <p>Footer</p>
 </template>
 <script>
-export default {
+export default{
     name:'FooterComp'
 }
 </script>
-<style scoped>
-</style>
